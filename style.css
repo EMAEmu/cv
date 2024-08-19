@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+}
+
+#div1 {
+    /* border: 1px solid black; */
+    width: 100vw;
+    /* margin-left: 300px; */
+    height: 140px;
+    background-color: blue;
+}
+#div1 img{
+    height: 120px;
+    width: 110px;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+#div2{
+    display: flex;
+}
+#div2 h1{
+    margin: 20px 10px;
+}
+.left{
+    height: 500px;
+    width: 300px;
+    background-color: bisque;
+    padding: 20px 10px;
+}
+.left .contact{
+    margin-left: 40px;
+
+}
+.left .contact h1{
+    font-size: 1.5rem;
+}
+.left .contact. ul li{
+    list-style: square;
+    padding: 3px;
+}
+.left .skills{
+    margin-left: 40px;
+    padding: 10px 0px;
+}
+.left .skills h1{
+    font-size: 1.5rem;
+}
+.main{
+    display: flex;
+}
+.right .edu{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.right .edu ul li{
+    margin-left: 15px;
+}
+.Experience{
+    margin-left: 40px;
+    margin-top: 10px;
+}
